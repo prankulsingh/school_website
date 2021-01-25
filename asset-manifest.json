@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/school_website/static/css/main.0b4ce531.chunk.css",
-    "main.js": "/school_website/static/js/main.045b65d8.chunk.js",
-    "main.js.map": "/school_website/static/js/main.045b65d8.chunk.js.map",
+    "main.js": "/school_website/static/js/main.c368574e.chunk.js",
+    "main.js.map": "/school_website/static/js/main.c368574e.chunk.js.map",
     "runtime-main.js": "/school_website/static/js/runtime-main.d82b73fc.js",
     "runtime-main.js.map": "/school_website/static/js/runtime-main.d82b73fc.js.map",
     "static/js/2.7b3b90ad.chunk.js": "/school_website/static/js/2.7b3b90ad.chunk.js",
     "static/js/2.7b3b90ad.chunk.js.map": "/school_website/static/js/2.7b3b90ad.chunk.js.map",
     "index.html": "/school_website/index.html",
-    "precache-manifest.0460a60dabbdb52708c9b0b9dddffac6.js": "/school_website/precache-manifest.0460a60dabbdb52708c9b0b9dddffac6.js",
+    "precache-manifest.7cdc3ee8b3ebc2e7411290f7c1562c42.js": "/school_website/precache-manifest.7cdc3ee8b3ebc2e7411290f7c1562c42.js",
     "service-worker.js": "/school_website/service-worker.js",
     "static/css/main.0b4ce531.chunk.css.map": "/school_website/static/css/main.0b4ce531.chunk.css.map",
     "static/js/2.7b3b90ad.chunk.js.LICENSE.txt": "/school_website/static/js/2.7b3b90ad.chunk.js.LICENSE.txt",
@@ -39,6 +39,6 @@
     "static/js/runtime-main.d82b73fc.js",
     "static/js/2.7b3b90ad.chunk.js",
     "static/css/main.0b4ce531.chunk.css",
-    "static/js/main.045b65d8.chunk.js"
+    "static/js/main.c368574e.chunk.js"
   ]
 }
