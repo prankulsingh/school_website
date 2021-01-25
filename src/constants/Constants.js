@@ -23,6 +23,13 @@ export const appStrings = {
 
 };
 
+export const contactInfo = {
+    phone: "+91-9999999999",
+    email: "test@gmail.com",
+    address: "awesome place, barelli, india",
+    website: "https://localhost:3000/",
+};
+
 export const subdomains = {
     aboutUs: "/about-us",
     notices: "/notices"

@@ -17,7 +17,7 @@
 */
 import React from "react";
 import ReactDOM from "react-dom";
-import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom";
+import {BrowserRouter, Route, Switch, Redirect, HashRouter} from "react-router-dom";
 
 // styles for this kit
 import "assets/css/bootstrap.min.css";
@@ -65,14 +65,15 @@ ReactDOM.render(
     //         </Switch>
     //     </Switch>
     // </BrowserRouter>,
-    <BrowserRouter>
+    <HashRouter>
         <Switch>
             <Route path="/" component={LandingPage} exact />
             <Route path="/components" component={Index} />
             <Route path="/landing" component={LandingPage} />
             <Route path="/profile" component={ProfilePage} />
             <Route path="/login" component={LoginPage} />
+            <Route path="/icons" component={NucleoIcons} />
         </Switch>
-    </BrowserRouter>,
+    </HashRouter>,
     document.getElementById("root")
 );

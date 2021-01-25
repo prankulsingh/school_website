@@ -17,6 +17,8 @@ import MainNavbar from "views/landingPage/childComponents/MainNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import DarkFooter from "../../components/Footers/DarkFooter";
+import './LandingPage.scss'
+import * as Constants from "../../constants/Constants";
 
 function LandingPage() {
   const [firstFocus, setFirstFocus] = React.useState(false);
@@ -196,65 +198,32 @@ function LandingPage() {
         </div>
         <div className="section section-contact-us text-center">
           <Container>
-            <h2 className="title">Want to work with us?</h2>
-            <p className="description">Your project is very important to us.</p>
+            <h2 className="title">Contact us</h2>
             <Row>
-              <Col className="text-center ml-auto mr-auto" lg="6" md="8">
-                <InputGroup
-                  className={
-                    "input-lg" + (firstFocus ? " input-group-focus" : "")
-                  }
-                >
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
-                      <i className="now-ui-icons users_circle-08"/>
-                    </InputGroupText>
-                  </InputGroupAddon>
-                  <Input
-                    placeholder="First Name..."
-                    type="text"
-                    onFocus={() => setFirstFocus(true)}
-                    onBlur={() => setFirstFocus(false)}
-                  />
-                </InputGroup>
-                <InputGroup
-                  className={
-                    "input-lg" + (lastFocus ? " input-group-focus" : "")
-                  }
-                >
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
-                      <i className="now-ui-icons ui-1_email-85"/>
-                    </InputGroupText>
-                  </InputGroupAddon>
-                  <Input
-                    placeholder="Email..."
-                    type="text"
-                    onFocus={() => setLastFocus(true)}
-                    onBlur={() => setLastFocus(false)}
-                  />
-                </InputGroup>
-                <div className="textarea-container">
-                  <Input
-                    cols="80"
-                    name="name"
-                    placeholder="Type a message..."
-                    rows="4"
-                    type="textarea"
-                  />
-                </div>
-                <div className="send-button">
-                  <Button
-                    block
-                    className="btn-round"
-                    color="info"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                    size="lg"
-                  >
-                    Send Message
-                  </Button>
-                </div>
+              <Col md="4" lg="4">
+                <p className="description left-align-text">
+                  <i className="now-ui-icons tech_mobile text-icon-align"/>
+                  <span className="test">{Constants.contactInfo.phone}</span>
+                </p>
+                <p className="description left-align-text">
+                  <i className="now-ui-icons ui-1_email-85 text-icon-align"/>
+                  {Constants.contactInfo.email}
+                </p>
+                <p className="description left-align-text">
+                  <i className="now-ui-icons location_pin text-icon-align"/>
+                  {Constants.contactInfo.address}
+                </p>
+                <p className="description left-align-text">
+                  <i className="now-ui-icons location_world text-icon-align"/>
+                  {Constants.contactInfo.website}
+                </p>
+              </Col>
+              <Col md="8" lg="8">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.5620642372196!2d77.22732101507562!3d28.612911982425544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2daa9eb4d0b%3A0x717971125923e5d!2sIndia%20Gate!5e0!3m2!1sen!2sin!4v1611582303803!5m2!1sen!2sin"
+                    width="100%" height="450" frameBorder="0" style={{border:0}} allowFullScreen="" aria-hidden="false"
+                    tabIndex="0"
+                />
               </Col>
             </Row>
           </Container>
