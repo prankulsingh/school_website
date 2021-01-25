@@ -32,37 +32,46 @@ import LandingPage from "views/landingPage/LandingPage.js";
 import ProfilePage from "views/landingPage/ProfilePage.js";
 
 ReactDOM.render(
+    // <BrowserRouter>
+    //     <Switch>
+    //         <Switch>
+    //             <Route
+    //                 path="/"
+    //                 render={(props) => <LandingPage {...props} />}
+    //                 exact
+    //             />
+    //             <Route
+    //                     path="/index"
+    //                 render={(props) => <Index {...props} />}
+    //             />
+    //             {/*<Route*/}
+    //             {/*    path="/nucleo-icons"*/}
+    //             {/*    render={(props) => <NucleoIcons {...props} />}*/}
+    //             {/*/>*/}
+    //             <Route
+    //                 path="/landing-page"
+    //                 render={(props) => <LandingPage {...props} />}
+    //             />
+    //             <Route
+    //                 path="/profile-page"
+    //                 render={(props) => <ProfilePage {...props} />}
+    //             />
+    //             <Route
+    //                 path="/login-page"
+    //                 render={(props) => <LoginPage {...props} />}
+    //             />
+    //             {/*<Redirect to="/landing-page" />*/}
+    //             {/*<Redirect from="/" to="/landing-page" />*/}
+    //         </Switch>
+    //     </Switch>
+    // </BrowserRouter>,
     <BrowserRouter>
         <Switch>
-            <Switch>
-                <Route
-                    path="/"
-                    render={(props) => <LandingPage {...props} />}
-                    exact
-                />
-                <Route
-                    path="/index"
-                    render={(props) => <Index {...props} />}
-                />
-                {/*<Route*/}
-                {/*    path="/nucleo-icons"*/}
-                {/*    render={(props) => <NucleoIcons {...props} />}*/}
-                {/*/>*/}
-                <Route
-                    path="/landing-page"
-                    render={(props) => <LandingPage {...props} />}
-                />
-                <Route
-                    path="/profile-page"
-                    render={(props) => <ProfilePage {...props} />}
-                />
-                <Route
-                    path="/login-page"
-                    render={(props) => <LoginPage {...props} />}
-                />
-                {/*<Redirect to="/landing-page" />*/}
-                {/*<Redirect from="/" to="/landing-page" />*/}
-            </Switch>
+            <Route path="/" component={LandingPage} exact />
+            <Route path="/components" component={Index} />
+            <Route path="/landing" component={LandingPage} />
+            <Route path="/profile" component={ProfilePage} />
+            <Route path="/login" component={LoginPage} />
         </Switch>
     </BrowserRouter>,
     document.getElementById("root")
