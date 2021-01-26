@@ -91,8 +91,8 @@ function MainNavbar() {
                 </DropdownToggle>
                 <DropdownMenu>
                   <DropdownItem
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      to="/vision"
+                      tag={Link}
                   >
                     {Constants.appStrings.aboutUs.vision}
                   </DropdownItem>

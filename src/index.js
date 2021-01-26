@@ -30,6 +30,8 @@ import NucleoIcons from "views/NucleoIcons.js";
 import LoginPage from "views/landingPage/LoginPage.js";
 import LandingPage from "views/landingPage/LandingPage.js";
 import ProfilePage from "views/landingPage/ProfilePage.js";
+import MainNavbar from "./views/landingPage/childComponents/MainNavbar";
+import Vision from "./views/vision/Vision";
 
 ReactDOM.render(
     // <BrowserRouter>
@@ -65,15 +67,18 @@ ReactDOM.render(
     //         </Switch>
     //     </Switch>
     // </BrowserRouter>,
-    <HashRouter>
-        <Switch>
-            <Route path="/" component={LandingPage} exact />
-            <Route path="/components" component={Index} />
-            <Route path="/landing" component={LandingPage} />
-            <Route path="/profile" component={ProfilePage} />
-            <Route path="/login" component={LoginPage} />
-            <Route path="/icons" component={NucleoIcons} />
-        </Switch>
-    </HashRouter>,
+    <div>
+        <HashRouter>
+            <MainNavbar />
+            <Switch>
+                <Route path="/" component={LandingPage} exact />
+                <Route path="/components" component={Index} />
+                <Route path="/vision" component={Vision} />
+                <Route path="/profile" component={ProfilePage} />
+                <Route path="/login" component={LoginPage} />
+                <Route path="/icons" component={NucleoIcons} />
+            </Switch>
+        </HashRouter>
+    </div>,
     document.getElementById("root")
 );
