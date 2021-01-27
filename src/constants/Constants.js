@@ -14,13 +14,7 @@ export const appStrings = {
         classes: "Classes",
         facilities: "Facilities",
     },
-    contactUs: {
-        contactUs: "Contact us",
-        phone: "Phone",
-        address: "Address",
-        email: "E-mail"
-    },
-
+    contactUs: "Contact Us"
 };
 
 export const contactInfo = {
@@ -32,7 +26,8 @@ export const contactInfo = {
 
 export const subdomains = {
     aboutUs: "/about-us",
-    notices: "/notices"
+    notices: "/notices",
+    contactUs: "/contact-us"
 };
 
 export const externalLinks = {

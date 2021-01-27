@@ -142,38 +142,11 @@ function MainNavbar() {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
-              <UncontrolledDropdown nav>
-                <DropdownToggle
-                    aria-haspopup={true}
-                    caret
-                    color="default"
-                    href="http://example.com?ref=creativetim"
-                    nav
-                >
-                  <p>{Constants.appStrings.contactUs.contactUs}</p>
-                </DropdownToggle>
-                <DropdownMenu>
-                  <DropdownItem
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                  >
-                    {Constants.appStrings.contactUs.phone}
-                  </DropdownItem>
-                  <DropdownItem
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                  >
-                    {Constants.appStrings.contactUs.email}
-                  </DropdownItem>
-                  <DropdownItem divider/>
-                  <DropdownItem
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                  >
-                    {Constants.appStrings.contactUs.address}
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
+              <NavItem>
+                <NavLink to={Constants.subdomains.contactUs} tag={Link}>
+                  {Constants.appStrings.contactUs}
+                </NavLink>
+              </NavItem>
               <NavItem>
                 <NavLink to={Constants.subdomains.notices} tag={Link}>
                   {Constants.appStrings.notices}

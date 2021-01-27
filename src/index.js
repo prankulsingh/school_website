@@ -32,6 +32,7 @@ import LandingPage from "views/landingPage/LandingPage.js";
 import ProfilePage from "views/landingPage/ProfilePage.js";
 import MainNavbar from "./views/landingPage/childComponents/MainNavbar";
 import Vision from "./views/vision/Vision";
+import ContactUs from "views/contactUs";
 
 ReactDOM.render(
     // <BrowserRouter>
@@ -74,6 +75,7 @@ ReactDOM.render(
                 <Route path="/" component={LandingPage} exact />
                 <Route path="/components" component={Index} />
                 <Route path="/vision" component={Vision} />
+                <Route path="/contact-us" component={ContactUs} />
                 <Route path="/profile" component={ProfilePage} />
                 <Route path="/login" component={LoginPage} />
                 <Route path="/icons" component={NucleoIcons} />
