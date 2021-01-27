@@ -4,10 +4,10 @@ import * as Constants from "../../constants/Constants";
 
 function ContactUs() {
     return (
-        <div className="section contact-us-page">
+        <div className="base-page section contact-us-page">
             <Container>
                 <h2>Contact Us</h2>
-                <div className="section section-contact-us text-center">
+                <div className="section-contact-us text-center">
                     <Container>
                         <Row>
                         <Col md="5">

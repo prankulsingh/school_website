@@ -3,7 +3,7 @@ import { Col, Container } from "reactstrap";
 
 function Vision() {
     return (
-        <div className="section vision-page">
+        <div className="section base-page vision-page">
             <Container>
                 <h2>Vision</h2>
                 <div className="image-container">
