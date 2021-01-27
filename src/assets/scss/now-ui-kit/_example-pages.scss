@@ -271,3 +271,18 @@
         text-decoration: none;
     }
 }
+
+.vision-page {
+
+    .image-container {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 25px;
+
+        img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+    }
+}
