@@ -20,6 +20,18 @@ import * as Constants from "../../../constants/Constants";
 function MainNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent-half-opacity");
   const [collapseOpen, setCollapseOpen] = React.useState(false);
+
+  React.useEffect(() => {
+    document.body.classList.add("landing-page");
+    document.body.classList.add("sidebar-collapse");
+    document.documentElement.classList.remove("nav-open");
+    window.scrollTo(0, 0);
+    document.body.scrollTop = 0;
+    return function cleanup() {
+      document.body.classList.remove("landing-page");
+      document.body.classList.remove("sidebar-collapse");
+    };
+  }, []);
   React.useEffect(() => {
     const updateNavbarColor = () => {
       if (
