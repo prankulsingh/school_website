@@ -116,8 +116,8 @@ function MainNavbar() {
                   </DropdownItem>
                   <DropdownItem divider/>
                   <DropdownItem
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      to="/managed-by"
+                      tag={Link}
                   >
                     {Constants.appStrings.aboutUs.managedBy}
                   </DropdownItem>

@@ -33,6 +33,7 @@ import ProfilePage from "views/landingPage/ProfilePage.js";
 import MainNavbar from "./views/landingPage/childComponents/MainNavbar";
 import Vision from "./views/vision/Vision";
 import ContactUs from "views/contactUs";
+import ManagedBy from "views/managedBy";
 
 ReactDOM.render(
     // <BrowserRouter>
@@ -76,6 +77,7 @@ ReactDOM.render(
                 <Route path="/components" component={Index} />
                 <Route path="/vision" component={Vision} />
                 <Route path="/contact-us" component={ContactUs} />
+                <Route path="/managed-by" component={ManagedBy} />
                 <Route path="/profile" component={ProfilePage} />
                 <Route path="/login" component={LoginPage} />
                 <Route path="/icons" component={NucleoIcons} />
