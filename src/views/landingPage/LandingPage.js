@@ -27,6 +27,59 @@ function LandingPage() {
         <LandingPageHeader />
         <div className="section section-about-us">
           <Container>
+          <h2>Principal's Message</h2>
+          <Row>
+            <Col md="5">
+              <div className="image-container">
+                  <img src={require("assets/img/bg1.jpg")} alt={"Nature, United States"} />
+              </div>
+            </Col>
+            <Col md="0.5" />
+            <Col md="6">
+            <p>
+              According to the National Oceanic and Atmospheric
+                  Administration, Ted, Scambos, NSID scentist, puts the
+                  potentially record low maximum sea ice extent tihs year down
+                  to low ice extent in the Pacific and a late drop in ice extent
+                  in the Barents Sea. According to the National Oceanic and Atmospheric
+                  Administration, Ted, Scambos, NSID scentist, puts the
+                  potentially record low maximum sea ice extent tihs year down
+                  to low ice extent in the Pacific and a late drop in ice extent
+                  in the Barents Sea. 
+                  The
+                  potentially record low maximum sea ice extent tihs year down
+                  to low ice extent in the Pacific and a late drop in ice extent
+                  in the Barents Sea. 
+              </p>
+            </Col>
+          </Row>
+          <p>
+              According to the National Oceanic and Atmospheric
+                  Administration, Ted, Scambos, NSID scentist, puts the
+                  potentially record low maximum sea ice extent tihs year down
+                  to low ice extent in the Pacific and a late drop in ice extent
+                  in the Barents Sea.
+                  The
+                  potentially record low maximum sea ice extent tihs year down
+                  to low ice extent in the Pacific and a late drop in ice extent
+                  in the Barents Sea. 
+              </p>
+              <p>
+              According to the National Oceanic and Atmospheric
+                  Administration, Ted, Scambos, NSID scentist, puts the
+                  potentially record low maximum sea ice extent tihs year down
+                  to low ice extent in the Pacific and a late drop in ice extent
+                  in the Barents Sea. According to the National Oceanic and Atmospheric
+                  Administration, Ted, Scambos, NSID scentist, puts the
+                  potentially record low maximum sea ice extent tihs year down
+                  to low ice extent in the Pacific and a late drop in ice extent
+                  in the Barents Sea. 
+                  According to the National Oceanic and Atmospheric
+                  Administration, Ted, Scambos, NSID scentist, puts the
+                  potentially record low maximum sea ice extent tihs year down
+                  to low ice extent in the Pacific and a late drop in ice extent
+                  in the Barents Sea. 
+              </p>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Who we are?</h2>
