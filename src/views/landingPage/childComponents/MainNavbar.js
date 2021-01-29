@@ -102,17 +102,17 @@ function MainNavbar() {
                   <p>{Constants.appStrings.aboutUs.aboutUs}</p>
                 </DropdownToggle>
                 <DropdownMenu>
+                <DropdownItem
+                      to="/about-us"
+                      tag={Link}
+                  >
+                    {Constants.appStrings.aboutUs.aboutUs}
+                  </DropdownItem>
                   <DropdownItem
                       to="/vision"
                       tag={Link}
                   >
                     {Constants.appStrings.aboutUs.vision}
-                  </DropdownItem>
-                  <DropdownItem
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                  >
-                    {Constants.appStrings.aboutUs.mission}
                   </DropdownItem>
                   <DropdownItem divider/>
                   <DropdownItem
