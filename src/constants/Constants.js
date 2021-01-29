@@ -3,7 +3,7 @@ export const appStrings = {
     notices: "Important Notices",
     aboutUs: {
         aboutUs: "About us",
-        vision: "Our vision",
+        vision: "Vision and Mission",
         mission: "Our mission",
         missionStatement: "Our mission is to provide the best education to the children, especially to the poor and the lower income group, with a holistic approach in a conducive atmosphere.",
         managedBy: "Managed by",
