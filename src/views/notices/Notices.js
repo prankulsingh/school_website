@@ -26,6 +26,7 @@ class Notices extends React.Component {
                 simpleSheet: true
             });
         } catch (e) {
+            console.error('some error in getting data from google sheet via tabletop');
             this.setState({
                 showLoader: false
             })
