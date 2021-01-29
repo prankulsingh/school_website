@@ -18,6 +18,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import {BrowserRouter, Route, Switch, Redirect, HashRouter} from "react-router-dom";
+import * as Constants from "constants/Constants";
 
 // styles for this kit
 import "assets/css/bootstrap.min.css";
@@ -36,6 +37,7 @@ import ContactUs from "views/contactUs";
 import ManagedBy from "views/managedBy";
 import Facilities from "views/facilites";
 import AboutUs from "views/aboutUs";
+import Notices from "./views/notices/Notices";
 
 ReactDOM.render(
     // <BrowserRouter>
@@ -75,16 +77,28 @@ ReactDOM.render(
         <HashRouter>
             <MainNavbar />
             <Switch>
-                <Route path="/" component={LandingPage} exact />
-                <Route path="/components" component={Index} />
-                <Route path="/about-us" component={AboutUs} />
-                <Route path="/vision" component={Vision} />
-                <Route path="/contact-us" component={ContactUs} />
-                <Route path="/managed-by" component={ManagedBy} />
-                <Route path="/facilities" component={Facilities} />
-                <Route path="/profile" component={ProfilePage} />
-                <Route path="/login" component={LoginPage} />
-                <Route path="/icons" component={NucleoIcons} />
+                {/*<Route path="/" component={LandingPage} exact />*/}
+                {/*<Route path="/components" component={Index} />*/}
+                {/*<Route path="/about-us" component={AboutUs} />*/}
+                {/*<Route path="/vision" component={Vision} />*/}
+                {/*<Route path="/notices" component={Notices} />*/}
+                {/*<Route path="/contact-us" component={ContactUs} />*/}
+                {/*<Route path="/managed-by" component={ManagedBy} />*/}
+                {/*<Route path="/facilities" component={Facilities} />*/}
+                {/*<Route path="/profile" component={ProfilePage} />*/}
+                {/*<Route path="/login" component={LoginPage} />*/}
+                {/*<Route path="/icons" component={NucleoIcons} />*/}
+                <Route path={Constants.subdomains.root} component={LandingPage} exact />
+                <Route path={Constants.subdomains.components} component={Index} />
+                <Route path={Constants.subdomains.aboutUs} component={AboutUs} />
+                <Route path={Constants.subdomains.vision} component={Vision} />
+                <Route path={Constants.subdomains.notices} component={Notices} />
+                <Route path={Constants.subdomains.contactUs} component={ContactUs} />
+                <Route path={Constants.subdomains.managedBy} component={ManagedBy} />
+                <Route path={Constants.subdomains.facilities} component={Facilities} />
+                <Route path={Constants.subdomains.profile} component={ProfilePage} />
+                <Route path={Constants.subdomains.login} component={LoginPage} />
+                <Route path={Constants.subdomains.icons} component={NucleoIcons} />
             </Switch>
         </HashRouter>
     </div>,

@@ -27,11 +27,23 @@ export const contactInfo = {
 export const subdomains = {
     aboutUs: "/about-us",
     notices: "/notices",
-    contactUs: "/contact-us"
+    vision: "/vision",
+    contactUs: "/contact-us",
+    root: "/",
+    components: "/components",
+    managedBy: "/managed-by",
+    facilities: "/facilities",
+    profile: "/profile",
+    login: "/login",
+    icons: "/icons",
 };
 
 export const externalLinks = {
     facebook: "",
     twitter: "",
     instagram: "",
+};
+
+export const apiKeys = {
+    googleSheetKey: "1VERT3eHvBnqE5L4WbyjH8FULN7WgoQhoBrNAx7xPvos"
 };
