@@ -35,6 +35,7 @@ import Vision from "./views/vision/Vision";
 import ContactUs from "views/contactUs";
 import ManagedBy from "views/managedBy";
 import Facilities from "views/facilites";
+import AboutUs from "views/aboutUs";
 
 ReactDOM.render(
     // <BrowserRouter>
@@ -76,6 +77,7 @@ ReactDOM.render(
             <Switch>
                 <Route path="/" component={LandingPage} exact />
                 <Route path="/components" component={Index} />
+                <Route path="/about-us" component={AboutUs} />
                 <Route path="/vision" component={Vision} />
                 <Route path="/contact-us" component={ContactUs} />
                 <Route path="/managed-by" component={ManagedBy} />
