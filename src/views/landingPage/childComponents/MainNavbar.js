@@ -147,8 +147,8 @@ function MainNavbar() {
                     {Constants.appStrings.school.classes}
                   </DropdownItem>
                   <DropdownItem
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      to="/facilities"
+                      tag={Link}
                   >
                     {Constants.appStrings.school.facilities}
                   </DropdownItem>

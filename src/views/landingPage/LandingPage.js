@@ -9,7 +9,7 @@ import {
   InputGroup,
   Container,
   Row,
-  Col, NavbarBrand, Collapse, Nav, NavItem, NavLink, Navbar,
+  Col, NavbarBrand, Collapse, Nav, NavItem, NavLink, Navbar, Jumbotron,
 } from "reactstrap";
 
 // core components
@@ -27,14 +27,15 @@ function LandingPage() {
         <LandingPageHeader />
         <div className="section section-about-us">
           <Container>
+            <Jumbotron>
           <h2>Principal's Message</h2>
           <Row>
-            <Col md="5">
+            <Col md="4">
               <div className="image-container">
-                  <img src={require("assets/img/bg1.jpg")} alt={"Nature, United States"} />
+                  <img src={require("assets/img/ryan.jpg")} alt={"Nature, United States"} />
               </div>
             </Col>
-            <Col md="0.5" />
+            <Col md="1" />
             <Col md="6">
             <p>
               According to the National Oceanic and Atmospheric
@@ -52,6 +53,7 @@ function LandingPage() {
                   in the Barents Sea. 
               </p>
             </Col>
+            <Col md="1" />
           </Row>
           <p>
               According to the National Oceanic and Atmospheric
@@ -62,24 +64,13 @@ function LandingPage() {
                   The
                   potentially record low maximum sea ice extent tihs year down
                   to low ice extent in the Pacific and a late drop in ice extent
-                  in the Barents Sea. 
-              </p>
-              <p>
-              According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSID scentist, puts the
-                  potentially record low maximum sea ice extent tihs year down
-                  to low ice extent in the Pacific and a late drop in ice extent
                   in the Barents Sea. According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSID scentist, puts the
+                  Administration, puts the
                   potentially record low maximum sea ice extent tihs year down
                   to low ice extent in the Pacific and a late drop in ice extent
-                  in the Barents Sea. 
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSID scentist, puts the
-                  potentially record low maximum sea ice extent tihs year down
-                  to low ice extent in the Pacific and a late drop in ice extent
-                  in the Barents Sea. 
+                  in the Barents Sea.
               </p>
+              </Jumbotron>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Who we are?</h2>
