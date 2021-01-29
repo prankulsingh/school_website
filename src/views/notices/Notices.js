@@ -18,7 +18,6 @@ class Notices extends React.Component {
             Tabletop.init({
                 key: Constants.apiKeys.googleSheetKey,
                 callback: googleSheetData => {
-                    console.log(googleSheetData);
                     this.setState({
                         showLoader: false,
                         noticeArray: googleSheetData
