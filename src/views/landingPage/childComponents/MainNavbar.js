@@ -114,7 +114,7 @@ function MainNavbar() {
                   >
                     {Constants.appStrings.aboutUs.vision}
                   </DropdownItem>
-                  <DropdownItem divider/>
+                  {/* <DropdownItem divider/> */}
                   <DropdownItem
                       to="/managed-by"
                       tag={Link}
