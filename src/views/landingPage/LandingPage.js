@@ -70,6 +70,8 @@ function LandingPage() {
                   to low ice extent in the Pacific and a late drop in ice extent
                   in the Barents Sea.
               </p>
+              <br />
+              <h5> - Utkarsh Singh</h5>
               </Jumbotron>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">

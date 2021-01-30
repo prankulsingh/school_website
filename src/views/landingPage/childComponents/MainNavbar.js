@@ -66,7 +66,7 @@ function MainNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              target="_blank"
+              href="/"
               id="navbar-brand"
             >
               {Constants.appStrings.schoolName}
