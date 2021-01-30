@@ -296,6 +296,7 @@
     .mission-container {
         padding: 20px;
         background-color: #e9ecef;
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
     }
 
     .mission-title {
@@ -338,6 +339,10 @@
     .description {
         margin-bottom: 4px;
     }
+}
+
+.small-vertical-margin {
+    margin: 48px 0px;
 }
 
 .base-page {
