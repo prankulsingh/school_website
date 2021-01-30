@@ -25,7 +25,7 @@ function LandingPage() {
   return (
     <>
       <div className="wrapper">
-        <div className="section small-vertical-margin section-about-us">
+        <div className="section section-about-us">
           <Container>
             <LandingPageHeader />
             <Jumbotron>

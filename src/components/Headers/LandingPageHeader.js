@@ -24,7 +24,7 @@ function LandingPageHeader() {
   // });
   return (
     <>
-      <div className="page-header page-header-small">
+      <div className="page-header small-vertical-margin page-header-small">
         {/*<div*/}
         {/*  className="page-header-image"*/}
         {/*  style={{*/}
