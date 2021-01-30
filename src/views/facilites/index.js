@@ -50,7 +50,7 @@ function Facilities() {
                         <Row className="small-vertical-margin justify-content-center">
                             <Carousel data={FacilitiesData.labs.data} />
                         </Row>
-                        <h2>Labs</h2>
+                        <h2>Library</h2>
                         <Row className="justify-content-between">
                             <Col md="6">
                                 <p>
