@@ -19,6 +19,7 @@ import DefaultFooter from "components/Footers/DefaultFooter.js";
 import DarkFooter from "../../components/Footers/DarkFooter";
 import './LandingPage.scss'
 import * as Constants from "../../constants/Constants";
+import NoticesWidget from "../../components/NoticesWidget/NoticesWidget";
 
 function LandingPage() {
   return (
@@ -154,6 +155,13 @@ function LandingPage() {
                     ice.
                   </p>
                 </Col>
+                  <Col md="6" xl="6">
+
+                      <NoticesWidget
+                          noOfNotices={3}
+                          showHomeRedirect={false}
+                      />
+                  </Col>
               </Row>
             </div>
           </Container>
