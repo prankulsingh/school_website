@@ -39,8 +39,7 @@ function ContactUs() {
                                             {Constants.contactInfo.website}
                                         </p>
                                     </Col>
-                                    <Col md="1"/>
-                                    <Col md="6">
+                                    <Col md="7">
                                         <iframe
                                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.5620642372196!2d77.22732101507562!3d28.612911982425544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2daa9eb4d0b%3A0x717971125923e5d!2sIndia%20Gate!5e0!3m2!1sen!2sin!4v1611582303803!5m2!1sen!2sin"
                                             width="100%" height="450" frameBorder="0" style={{border:0}} allowFullScreen="" aria-hidden="false"

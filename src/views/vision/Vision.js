@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row, Card, CardBody, CardTitle, CardSubtitle} from "reactstrap";
+import { Col, Container, Row, Card, CardBody, CardTitle, CardSubtitle, Jumbotron } from "reactstrap";
 
 function Vision() {
     return (
@@ -31,33 +31,29 @@ function Vision() {
                         <h2>Mission</h2>
                         <Row>
                             <Col>
-                                <Card>
-                                    <CardBody>
-                                        <CardTitle tag="h4">Sports</CardTitle>
-                                            <CardSubtitle tag="h6" className="mb-2 text-muted">
-                                                Fix style of the card and it will be awesome.
-                                            </CardSubtitle>
-                                    </CardBody>
+                                <Card className="mission-container">
+                                    <h4 className="mission-title">Sports</h4>
+                                    <h6 className="mission-subtitle">Our goal is to support and nurture the children’s and our own natural desire to be life-long learners. We are committed to the families we serve, providing support and encouragement.</h6>
                                 </Card>
                             </Col>
                             <Col>
-                                <Card>
-                                    <CardBody>
-                                        <CardTitle tag="h4">Sports</CardTitle>
-                                            <CardSubtitle tag="h6" className="mb-2 text-muted">
-                                                Elements of science are all around us. In fact, we encounter the effects of science on a daily basis, whether it be experiencing static electricity. 
-                                        </CardSubtitle>
-                                    </CardBody>
+                                <Card className="mission-container">
+                                    <h4 className="mission-title">World Class Education</h4>
+                                    <h6 className="mission-subtitle">Provide high quality education and childcare in a safe, respectful and inclusive environment that builds a foundation for life-long learning.</h6>
+                                </Card>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <Card className="mission-container">
+                                    <h4 className="mission-title">Sports</h4>
+                                    <h6 className="mission-subtitle">Provide a safe learning environment with a welcoming atmosphere which creates a sense of belonging amongst the families.</h6>
                                 </Card>
                             </Col>
                             <Col>
-                                <Card>
-                                    <CardBody>
-                                    <CardTitle tag="h4">Sports</CardTitle>
-                                        <CardSubtitle tag="h6" className="mb-2 text-muted">
-                                           Elements of science are all around us. In fact, we encounter the effects of science on a daily basis, whether it be experiencing static electricity. 
-                                    </CardSubtitle>
-                                    </CardBody>
+                                <Card className="mission-container">
+                                    <h4 className="mission-title">Sports</h4>
+                                    <h6 className="mission-subtitle">Provide exceptional care to children while fostering each child’s intellectual, social, physical and moral development in an academic-rich environment.</h6>
                                 </Card>
                             </Col>
                         </Row>

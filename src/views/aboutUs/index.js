@@ -9,7 +9,7 @@ function AboutUs() {
                     <Container>
                         <h2>About Us</h2>
                         <div className="image-container">
-                            <img src={require("assets/img/bg1.jpg")} alt={"Nature, United States"} />
+                            <img src={"https://cdn.pixabay.com/photo/2014/05/02/23/52/castle-336498_1280.jpg"} alt={"Nature, United States"} />
                         </div>
                         <p>
                             I will be the leader of a company that ends up being
