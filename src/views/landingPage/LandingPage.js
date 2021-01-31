@@ -2,14 +2,14 @@ import React from "react";
 
 // reactstrap components
 import {
-  Button,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
-  Container,
-  Row,
-  Col, NavbarBrand, Collapse, Nav, NavItem, NavLink, Navbar, Jumbotron,
+    Button,
+    Input,
+    InputGroupAddon,
+    InputGroupText,
+    InputGroup,
+    Container,
+    Row,
+    Col, NavbarBrand, Collapse, Nav, NavItem, NavLink, Navbar, Jumbotron, Card, CardBody, CardTitle, CardSubtitle,
 } from "reactstrap";
 
 // core components
@@ -156,11 +156,45 @@ function LandingPage() {
                   </p>
                 </Col>
                   <Col md="6" xl="6">
-
-                      <NoticesWidget
-                          noOfNotices={3}
-                          showHomeRedirect={false}
-                      />
+                      <Card>
+                          <CardBody>
+                              <CardSubtitle tag="h6" className="mb-2 text-muted see-all">
+                                  <a href={Constants.subdomains.notices} target="_blank">
+                                      See all
+                                  </a>
+                              </CardSubtitle>
+                              <CardTitle tag="h5">Important notices</CardTitle>
+                              <NoticesWidget
+                                  noOfNotices={5}
+                                  showHomeRedirect={false}
+                                  miniWidget={true}
+                              />
+                              <br/>
+                          </CardBody>
+                      </Card>
+                  </Col>
+                  <Col md="6" xl="6">
+                      <Card>
+                          <CardBody>
+                              <CardSubtitle tag="h6" className="mb-2 text-muted see-all">
+                                  <a href={Constants.subdomains.notices} target="_blank">
+                                      See all
+                                  </a>
+                              </CardSubtitle>
+                              <CardTitle tag="h5">News and announcements</CardTitle>
+                              <NoticesWidget
+                                  noOfNotices={5}
+                                  showHomeRedirect={false}
+                                  miniWidget={true}
+                              />
+                              <br/>
+                              {/*<CardSubtitle tag="h6" className="mb-2 text-muted">*/}
+                              {/*    <a href={Constants.subdomains.notices} target="_blank">*/}
+                              {/*        See all*/}
+                              {/*    </a>*/}
+                              {/*</CardSubtitle>*/}
+                          </CardBody>
+                      </Card>
                   </Col>
               </Row>
             </div>
