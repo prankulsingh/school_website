@@ -1,5 +1,5 @@
 export const appStrings = {
-    schoolName: "Hostel Mafiaz International School",
+    schoolName: "Sample Public School",
     notices: "Important Notices",
     aboutUs: {
         aboutUs: "About us",
