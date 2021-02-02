@@ -94,7 +94,7 @@ function CarouselSection({data}) {
                   }}
                   role="button"
                 >
-                  <i className="now-ui-icons arrows-1_minimal-left"></i>
+                  <i style={styles.arrow} className="now-ui-icons arrows-1_minimal-left"></i>
                 </a>
                 <a
                   className="carousel-control-next"
@@ -106,7 +106,7 @@ function CarouselSection({data}) {
                   }}
                   role="button"
                 >
-                  <i className="now-ui-icons arrows-1_minimal-right"></i>
+                  <i style={styles.arrow} className="now-ui-icons arrows-1_minimal-right"></i>
                 </a>
               </Carousel>
             </Col>
@@ -115,6 +115,14 @@ function CarouselSection({data}) {
       </div>
     </>
   );
+}
+
+const styles = {
+  arrow: {
+    fontSize: "16px",
+    color: "black",
+    fontWeight: "bold"
+  }
 }
 
 export default CarouselSection;

@@ -12,8 +12,8 @@ function Facilities() {
                 <div className="base-page section contact-us-page">
                     <Container>
                         <h2>Facilities</h2>
-                        <h2>Sports</h2>
-                        <Row className="justify-content-between">
+                        <h3>Sports</h3>
+                        {/* <Row className="justify-content-between">
                             <Col md="6">
                                 <p>
                                 Elements of science are all around us. In fact, we encounter the effects of science on a daily basis, whether it be experiencing static electricity, 
@@ -26,12 +26,12 @@ function Facilities() {
                                 observing a rain cloud forming or seeing ice melt. Learning about how our world works through science can be a fun and exciting experience. 
                                 </p>
                             </Col>
-                        </Row>
+                        </Row> */}
                         <Row className="small-vertical-margin justify-content-center">
                             <Carousel data={FacilitiesData.sports.data}/>
                         </Row>
-                        <h2>Labs</h2>
-                        <Row className="justify-content-between">
+                        <h3>Labs</h3>
+                        {/* <Row className="justify-content-between">
                             <Col md="6">
                                 <p>
                                 Elements of science are all around us. In fact, we encounter the effects of science on a daily basis, whether it be experiencing static electricity, 
@@ -46,11 +46,33 @@ function Facilities() {
                                 Exposing children to scientific concepts from a young age encourages exploration and lays the ground work for a love of learning for many years to come. 
                                 </p>
                             </Col>
-                        </Row>
+                        </Row> */}
                         <Row className="small-vertical-margin justify-content-center">
                             <Carousel data={FacilitiesData.labs.data} />
                         </Row>
-                        <h2>Library</h2>
+                        <h3>Transport Service</h3>
+                        {/* <Row className="justify-content-between">
+                            <Col md="6">
+                                <p>
+                                Elements of science are all around us. In fact, we encounter the effects of science on a daily basis, whether it be experiencing static electricity, 
+                                observing a rain cloud forming or seeing ice melt. Learning about how our world works through science can be a fun and exciting experience. 
+                                Exposing children to scientific concepts from a young age encourages exploration and lays the ground work for a love of learning for many years to come. 
+                                </p>
+                            </Col>
+                            <Col md="6">
+                                <p>
+                                Elements of science are all around us. In fact, we encounter the effects of science on a daily basis, whether it be experiencing static electricity, 
+                                observing a rain cloud forming or seeing ice melt. Learning about how our world works through science can be a fun and exciting experience. 
+                                Exposing children to scientific concepts from a young age encourages exploration and lays the ground work for a love of learning for many years to come. 
+                                </p>
+                            </Col>
+                        </Row> */}
+                        <Row className="small-vertical-margin justify-content-center">
+                            <Col md="8">
+                                <img src={require("assets/img/bus.png")}/>
+                            </Col>
+                        </Row>
+                        {/* <h3>Labs</h3>
                         <Row className="justify-content-between">
                             <Col md="6">
                                 <p>
@@ -71,29 +93,7 @@ function Facilities() {
                             <Col md="8">
                                 <img src={"https://cdn.pixabay.com/photo/2015/07/31/11/45/library-869061_1280.jpg"}/>
                             </Col>
-                        </Row>
-                        <h2>Labs</h2>
-                        <Row className="justify-content-between">
-                            <Col md="6">
-                                <p>
-                                Elements of science are all around us. In fact, we encounter the effects of science on a daily basis, whether it be experiencing static electricity, 
-                                observing a rain cloud forming or seeing ice melt. Learning about how our world works through science can be a fun and exciting experience. 
-                                Exposing children to scientific concepts from a young age encourages exploration and lays the ground work for a love of learning for many years to come. 
-                                </p>
-                            </Col>
-                            <Col md="6">
-                                <p>
-                                Elements of science are all around us. In fact, we encounter the effects of science on a daily basis, whether it be experiencing static electricity, 
-                                observing a rain cloud forming or seeing ice melt. Learning about how our world works through science can be a fun and exciting experience. 
-                                Exposing children to scientific concepts from a young age encourages exploration and lays the ground work for a love of learning for many years to come. 
-                                </p>
-                            </Col>
-                        </Row>
-                        <Row className="small-vertical-margin justify-content-center">
-                            <Col md="8">
-                                <img src={"https://cdn.pixabay.com/photo/2015/07/31/11/45/library-869061_1280.jpg"}/>
-                            </Col>
-                        </Row>
+                        </Row> */}
                     </Container>
                     
                 </div>

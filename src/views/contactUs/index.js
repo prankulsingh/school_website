@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "reactstrap";
+import { Card, Col, Container, Row } from "reactstrap";
 import * as Constants from "../../constants/Constants";
 
 function ContactUs() {
@@ -11,33 +11,46 @@ function ContactUs() {
                         <h2>Contact Us</h2>
                         <div className="section-contact-us text-center">
                             <Container>
-                                <Row>
+                                <Row className="justify-content-center align-items-center">
                                     <Col md="5">
-                                        <p className="school-name left-align-text">
-                                            Indraprastha Institute of Information Technology, Delhi
+                                        {/* <p className="school-name left-align-text">
+                                            {Constants.appStrings.schoolName}
                                             <br />
-                                            Okhla Industrial Estate,Phase III
+                                        {Constants.contactInfo.addressLine1}
                                             <br />
-                                            (Near Govind Puri Metro Station)
-                                            <br />
-                                            New Delhi, India - 110020
-                                        </p>
-                                        <p className="description left-align-text">
+                                            {Constants.contactInfo.addressLine2}
+                                        </p> */}
+                                        {/* <p className="description left-align-text">
                                             <i className="now-ui-icons tech_mobile text-icon-align"/>
                                             <span className="test">{Constants.contactInfo.phone}</span>
-                                        </p>
-                                        <p className="description left-align-text">
+                                        </p> */}
+                                        <Card className="info-container">
+
+                                            <i className="icon now-ui-icons ui-1_email-85"/>
+                                            <h5>
+                                                {Constants.contactInfo.primaryEmail}
+                                                <br />
+                                                {Constants.contactInfo.secondaryEmail}
+                                            </h5>
+                                        </Card>
+                                        <Card className="info-container">
+                                            <i className="icon now-ui-icons location_pin text-icon-align"/>
+                                            <h5>
+                                            {Constants.contactInfo.address}
+                                            </h5>
+                                        </Card>
+                                        {/* <p className="description left-align-text">
                                             <i className="now-ui-icons ui-1_email-85 text-icon-align"/>
                                             {Constants.contactInfo.email}
                                         </p>
                                         <p className="description left-align-text">
                                             <i className="now-ui-icons location_pin text-icon-align"/>
                                             {Constants.contactInfo.address}
-                                        </p>
-                                        <p className="description left-align-text">
+                                        </p> */}
+                                        {/* <p className="description left-align-text">
                                             <i className="now-ui-icons location_world text-icon-align"/>
                                             {Constants.contactInfo.website}
-                                        </p>
+                                        </p> */}
                                     </Col>
                                     <Col md="7">
                                         <iframe
