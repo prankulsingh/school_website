@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "befef06fed97514e96659c06c858283c",
+    "revision": "7f5e1e9f0ccc801c69e3e7290853710c",
     "url": "/index.html"
   },
   {
-    "revision": "c37f310daf63be353d07",
-    "url": "/static/css/main.5b0e736e.chunk.css"
+    "revision": "6a22e67853d5641f418d",
+    "url": "/static/css/main.26f6242a.chunk.css"
   },
   {
-    "revision": "5aebbe06f7c9892a980f",
-    "url": "/static/js/2.3be8cf4c.chunk.js"
+    "revision": "3b658917466403fa7b6b",
+    "url": "/static/js/2.1fe954e3.chunk.js"
   },
   {
     "revision": "ac4a31b929cb9380c4a242904540a469",
-    "url": "/static/js/2.3be8cf4c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.1fe954e3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c37f310daf63be353d07",
-    "url": "/static/js/main.bd80ab43.chunk.js"
+    "revision": "6a22e67853d5641f418d",
+    "url": "/static/js/main.8b64cba9.chunk.js"
   },
   {
     "revision": "f3e3d39c6956ba81638d",
     "url": "/static/js/runtime-main.730ad540.js"
-  },
-  {
-    "revision": "7257a1a94be550133f3233fd792ee724",
-    "url": "/static/media/avatar.7257a1a9.jpg"
   },
   {
     "revision": "b1aa8c7e4724c3eb98265369693ed14b",
@@ -74,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f7cb2d390498c2969b2b1050f3e024ce",
     "url": "/static/media/creative-tim-white-slim2.f7cb2d39.png"
-  },
-  {
-    "revision": "089c4f4e55f158a69d0364c6b6339f37",
-    "url": "/static/media/eva.089c4f4e.jpg"
   },
   {
     "revision": "ffcc99c42164b65da7af6307b66379cf",
