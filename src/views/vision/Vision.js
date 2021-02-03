@@ -27,10 +27,13 @@ function Vision() {
                             We also desire to have strong families through parent support/fellowship and skills training.
                         </p>
                         <ul>
-                            <li>Fun & Safe Environment</li>
-                            <li>Qualified, dedicated & inspiring faculty</li>
-                            <li>Ideal Student - Teacher ratio</li>
-                            <li>Activity based integrated Curriculum</li>
+                            <li>Bring out the talents and skills of the students through academic's co- curricular activities</li>
+                            <li>Develop the qualities of self discipline and self respect.</li>
+                            <li>Leadership qualities develop or instill.</li>
+                            <li>Create responsible individuals with emotional bondages.</li>
+                            <li>Prepare them to face challenge of life with confidence and strength.</li>
+                            <li>Create good human beings with compassion, love and care for others.</li>
+                            <li>Develop the overall personality.</li>
                         </ul>
                         <h2>Mission</h2>
                         <Row>
