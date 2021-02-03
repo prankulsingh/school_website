@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.26f6242a.chunk.css",
-    "main.js": "/static/js/main.54cddd6e.chunk.js",
-    "main.js.map": "/static/js/main.54cddd6e.chunk.js.map",
+    "main.css": "/static/css/main.5b0e736e.chunk.css",
+    "main.js": "/static/js/main.bd80ab43.chunk.js",
+    "main.js.map": "/static/js/main.bd80ab43.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.730ad540.js",
     "runtime-main.js.map": "/static/js/runtime-main.730ad540.js.map",
-    "static/js/2.91d5d82a.chunk.js": "/static/js/2.91d5d82a.chunk.js",
-    "static/js/2.91d5d82a.chunk.js.map": "/static/js/2.91d5d82a.chunk.js.map",
+    "static/js/2.3be8cf4c.chunk.js": "/static/js/2.3be8cf4c.chunk.js",
+    "static/js/2.3be8cf4c.chunk.js.map": "/static/js/2.3be8cf4c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.24be22c88061b5c25ee046bbb728c97d.js": "/precache-manifest.24be22c88061b5c25ee046bbb728c97d.js",
+    "precache-manifest.b5e736421bba2d568e3255beffd4286a.js": "/precache-manifest.b5e736421bba2d568e3255beffd4286a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.26f6242a.chunk.css.map": "/static/css/main.26f6242a.chunk.css.map",
-    "static/js/2.91d5d82a.chunk.js.LICENSE.txt": "/static/js/2.91d5d82a.chunk.js.LICENSE.txt",
+    "static/css/main.5b0e736e.chunk.css.map": "/static/css/main.5b0e736e.chunk.css.map",
+    "static/js/2.3be8cf4c.chunk.js.LICENSE.txt": "/static/js/2.3be8cf4c.chunk.js.LICENSE.txt",
+    "static/media/avatar.jpg": "/static/media/avatar.7257a1a9.jpg",
     "static/media/basketball.png": "/static/media/basketball.b1aa8c7e.png",
     "static/media/bg1.jpg": "/static/media/bg1.6b1983a2.jpg",
     "static/media/bg11.jpg": "/static/media/bg11.e643a6cf.jpg",
@@ -24,6 +25,7 @@
     "static/media/bus.png": "/static/media/bus.2fc3677a.png",
     "static/media/comp.png": "/static/media/comp.5156bee0.png",
     "static/media/creative-tim-white-slim2.png": "/static/media/creative-tim-white-slim2.f7cb2d39.png",
+    "static/media/eva.jpg": "/static/media/eva.089c4f4e.jpg",
     "static/media/header.jpg": "/static/media/header.ffcc99c4.jpg",
     "static/media/hero-image-1.png": "/static/media/hero-image-1.a76c7b4c.png",
     "static/media/hero-image-2.png": "/static/media/hero-image-2.9616730d.png",
@@ -40,8 +42,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.730ad540.js",
-    "static/js/2.91d5d82a.chunk.js",
-    "static/css/main.26f6242a.chunk.css",
-    "static/js/main.54cddd6e.chunk.js"
+    "static/js/2.3be8cf4c.chunk.js",
+    "static/css/main.5b0e736e.chunk.css",
+    "static/js/main.bd80ab43.chunk.js"
   ]
 }
