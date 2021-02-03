@@ -1,5 +1,5 @@
 export const appStrings = {
-    schoolName: "Sample Public School",
+    schoolName: "Radiance Global School",
     notices: "Important Notices",
     aboutUs: {
         aboutUs: "About us",
@@ -19,8 +19,11 @@ export const appStrings = {
 
 export const contactInfo = {
     phone: "+91-9999999999",
-    email: "test@gmail.com",
-    address: "awesome place, barelli, india",
+    primaryEmail: "patelsewatrust@gmail.com",
+    secondaryEmail: "radianceglobalschool@gmail.com",
+    address: "Village Padauli, 12 KM from Bareilly Bareilly-Bisalpur Road (NH730B)",
+    addressLine1: "Village Padauli, 12 KM from Bareilly",
+    addressLine2: "Bareilly-Bisalpur Road (NH730B)",
     website: "https://localhost:3000/",
 };
 
