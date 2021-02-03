@@ -28,7 +28,7 @@ function LandingPage() {
         <div className="section section-about-us">
           <Container>
             <LandingPageHeader />
-            <Jumbotron>
+            <Jumbotron className="shadow">
               <h2>Principal's Message</h2>
               <Row>
                 <Col md="4">

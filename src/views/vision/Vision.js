@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row, Card, CardBody, CardTitle, CardSubtitle, Jumbotron } from "reactstrap";
+import * as Constants from "../../constants/Constants";
 
 function Vision() {
     return (
@@ -33,32 +34,16 @@ function Vision() {
                         </ul>
                         <h2>Mission</h2>
                         <Row>
-                            <Col>
-                                <Card className="mission-container">
-                                    {/* <h4 className="mission-title">Sports</h4> */}
-                                    <h6 className="mission-subtitle">Offer a safe, happy place where everyone is known and valued, and where differing needs are acknowledged, accepted and met.</h6>
-                                </Card>
-                            </Col>
-                            <Col>
-                                <Card className="mission-container">
-                                    {/* <h4 className="mission-title">World Class Education</h4> */}
-                                    <h6 className="mission-subtitle">Provide high quality education and childcare in a safe, respectful and inclusive environment that builds a foundation for life-long learning.</h6>
-                                </Card>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col>
-                                <Card className="mission-container">
-                                    {/* <h4 className="mission-title">Sports</h4> */}
-                                    <h6 className="mission-subtitle">Provide a safe learning environment with a welcoming atmosphere which creates a sense of belonging amongst the families.</h6>
-                                </Card>
-                            </Col>
-                            <Col>
-                                <Card className="mission-container">
-                                    {/* <h4 className="mission-title">Sports</h4> */}
-                                    <h6 className="mission-subtitle">Provide exceptional care to children while fostering each child’s intellectual, social, physical and moral development in an academic-rich environment.</h6>
-                                </Card>
-                            </Col>
+                            {
+                                Constants.appStrings.aboutUs.missionStatements.map((mission, key) =>
+                                    <Col md="6" xl="6">
+                                        <Card className="mission-container shadow-sm">
+                                            <h4 className="mission-title">{mission.title}</h4>
+                                            {mission.text}
+                                        </Card>
+                                    </Col>
+                                )
+                            }
                         </Row>
                     </Container>
                 </div>

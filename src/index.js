@@ -33,10 +33,10 @@ import LandingPage from "views/landingPage/LandingPage.js";
 import ProfilePage from "views/landingPage/ProfilePage.js";
 import MainNavbar from "./views/landingPage/childComponents/MainNavbar";
 import Vision from "./views/vision/Vision";
-import ContactUs from "views/contactUs";
-import ManagedBy from "views/managedBy";
-import Facilities from "views/facilites";
-import AboutUs from "views/aboutUs";
+import ContactUs from "views/contactUs/ContactUs";
+import ManagedBy from "views/managedBy/ManagedBy";
+import Facilities from "views/facilites/Facilities";
+import AboutUs from "views/aboutUs/AboutUs";
 import Notices from "./views/notices/Notices";
 
 ReactDOM.render(
@@ -77,17 +77,6 @@ ReactDOM.render(
         <HashRouter>
             <MainNavbar />
             <Switch>
-                {/*<Route path="/" component={LandingPage} exact />*/}
-                {/*<Route path="/components" component={Index} />*/}
-                {/*<Route path="/about-us" component={AboutUs} />*/}
-                {/*<Route path="/vision" component={Vision} />*/}
-                {/*<Route path="/notices" component={Notices} />*/}
-                {/*<Route path="/contact-us" component={ContactUs} />*/}
-                {/*<Route path="/managed-by" component={ManagedBy} />*/}
-                {/*<Route path="/facilities" component={Facilities} />*/}
-                {/*<Route path="/profile" component={ProfilePage} />*/}
-                {/*<Route path="/login" component={LoginPage} />*/}
-                {/*<Route path="/icons" component={NucleoIcons} />*/}
                 <Route path={Constants.subdomains.root} component={LandingPage} exact />
                 <Route path={Constants.subdomains.components} component={Index} />
                 <Route path={Constants.subdomains.aboutUs} component={AboutUs} />
