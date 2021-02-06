@@ -7,6 +7,7 @@ import './LandingPage.scss'
 import * as Constants from "../../constants/Constants";
 import NoticesWidget from "../../components/NoticesWidget/NoticesWidget";
 import Carousel from "../../commonComponents/Carousel";
+import { Link } from "react-router-dom";
 
 function LandingPage() {
   return (
@@ -37,9 +38,9 @@ function LandingPage() {
                       <Card>
                           <CardBody>
                               <CardSubtitle tag="h6" className="mb-2 text-muted see-all">
-                                  <a href={Constants.subdomains.notices} target="_blank">
+                                  <Link href={Constants.subdomains.notices}>
                                       See all
-                                  </a>
+                                  </Link>
                               </CardSubtitle>
                               <CardTitle tag="h5">Important notices</CardTitle>
                               <NoticesWidget
@@ -55,9 +56,9 @@ function LandingPage() {
                       <Card>
                           <CardBody>
                               <CardSubtitle tag="h6" className="mb-2 text-muted see-all">
-                                  <a href={Constants.subdomains.notices} target="_blank">
+                                  <Link to={Constants.subdomains.notices}>
                                       See all
-                                  </a>
+                                  </Link>
                               </CardSubtitle>
                               <CardTitle tag="h5">News and announcements</CardTitle>
                               <NoticesWidget
