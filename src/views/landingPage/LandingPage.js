@@ -38,7 +38,7 @@ function LandingPage() {
                       <Card>
                           <CardBody>
                               <CardSubtitle tag="h6" className="mb-2 text-muted see-all">
-                                  <Link href={Constants.subdomains.notices}>
+                                  <Link to={Constants.subdomains.notices}>
                                       See all
                                   </Link>
                               </CardSubtitle>
