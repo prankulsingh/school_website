@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f5e1e9f0ccc801c69e3e7290853710c",
+    "revision": "debc0b9cea131de08ea5e6b2db027185",
     "url": "/index.html"
   },
   {
-    "revision": "6a22e67853d5641f418d",
-    "url": "/static/css/main.26f6242a.chunk.css"
+    "revision": "dfbbcd9cf7689c7ce084",
+    "url": "/static/css/main.c58ce637.chunk.css"
   },
   {
-    "revision": "3b658917466403fa7b6b",
-    "url": "/static/js/2.1fe954e3.chunk.js"
+    "revision": "d7af06371e65fe65adc3",
+    "url": "/static/js/2.2e589656.chunk.js"
   },
   {
     "revision": "ac4a31b929cb9380c4a242904540a469",
-    "url": "/static/js/2.1fe954e3.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.2e589656.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6a22e67853d5641f418d",
-    "url": "/static/js/main.8b64cba9.chunk.js"
+    "revision": "dfbbcd9cf7689c7ce084",
+    "url": "/static/js/main.24366392.chunk.js"
   },
   {
     "revision": "f3e3d39c6956ba81638d",
@@ -44,24 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bg4.4bff5d45.jpg"
   },
   {
-    "revision": "056eb0586182a8d28273ad11c028e912",
-    "url": "/static/media/bg5.056eb058.jpg"
-  },
-  {
-    "revision": "d7d1aaf71d275992031bd75cdb6ec65c",
-    "url": "/static/media/bg6.d7d1aaf7.jpg"
-  },
-  {
     "revision": "607a4a36d058e55773625ba23518e291",
     "url": "/static/media/bg7.607a4a36.jpg"
-  },
-  {
-    "revision": "6737ce3b2577a1c3977e4d479511f642",
-    "url": "/static/media/bg8.6737ce3b.jpg"
-  },
-  {
-    "revision": "2fc3677ad70f6d1dd1b9808d4322a813",
-    "url": "/static/media/bus.2fc3677a.png"
   },
   {
     "revision": "5156bee075a90b19fbb546400f8789c4",
@@ -100,10 +84,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/landing.f8fba454.jpg"
   },
   {
-    "revision": "b21019516fd574253e2354080dc1dd00",
-    "url": "/static/media/login.b2101951.jpg"
-  },
-  {
     "revision": "22a0bffe789c286a9d78eb52670996a7",
     "url": "/static/media/nucleo-outline.22a0bffe.ttf"
   },
@@ -126,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f217f346c88e5fb2720ca7c28827ff72",
     "url": "/static/media/ryan.f217f346.jpg"
+  },
+  {
+    "revision": "b0152c87dd1e6c618eebedc6622e5e84",
+    "url": "/static/media/schoolLogo.b0152c87.png"
   },
   {
     "revision": "513a7c667f7289e474ee34eedea20da5",
