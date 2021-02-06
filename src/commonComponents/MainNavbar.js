@@ -15,7 +15,7 @@ import {
   Container,
   UncontrolledTooltip,
 } from "reactstrap";
-import * as Constants from "../../../constants/Constants";
+import * as Constants from "../constants/Constants";
 
 function MainNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent-half-opacity");
@@ -69,6 +69,7 @@ function MainNavbar() {
               href="/"
               id="navbar-brand"
             >
+              <img src={require("assets/img/schoolLogo.png")} height="27" style={{marginRight: "10px"}}/>
               {Constants.appStrings.schoolName}
             </NavbarBrand>
             <button
@@ -123,33 +124,33 @@ function MainNavbar() {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <UncontrolledDropdown nav>
-                <DropdownToggle
-                    aria-haspopup={true}
-                    caret
-                    color="default"
-                    href="http://example.com?ref=creativetim"
-                    nav
-                >
+                <DropdownToggle aria-haspopup={true} caret color="default" nav>
                   <p>{Constants.appStrings.school.school}</p>
                 </DropdownToggle>
                 <DropdownMenu>
                   <DropdownItem
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                  >
-                    {Constants.appStrings.school.boards}
-                  </DropdownItem>
-                  <DropdownItem
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                  >
-                    {Constants.appStrings.school.classes}
-                  </DropdownItem>
-                  <DropdownItem
-                      to="/facilities"
+                      to={Constants.subdomains.facilities}
                       tag={Link}
                   >
                     {Constants.appStrings.school.facilities}
+                  </DropdownItem>
+                  <DropdownItem
+                      to={Constants.subdomains.educationalProgram}
+                      tag={Link}
+                  >
+                    {Constants.appStrings.school.educationalProgram}
+                  </DropdownItem>
+                  <DropdownItem
+                      to={Constants.subdomains.coScholasticActivities}
+                      tag={Link}
+                  >
+                    {Constants.appStrings.school.coScholasticActivities}
+                  </DropdownItem>
+                  <DropdownItem
+                      to={Constants.subdomains.eLearning}
+                      tag={Link}
+                  >
+                    {Constants.appStrings.school.eLearning}
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
@@ -163,11 +164,6 @@ function MainNavbar() {
                   {Constants.appStrings.notices}
                 </NavLink>
               </NavItem>
-              {/*<NavItem>*/}
-              {/*  <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">*/}
-              {/*    Have an issue?*/}
-              {/*  </NavLink>*/}
-              {/*</NavItem>*/}
               <NavItem>
                 <NavLink
                   href={Constants.externalLinks.twitter}

@@ -17,9 +17,8 @@
 */
 import React from "react";
 import ReactDOM from "react-dom";
-import {BrowserRouter, Route, Switch, Redirect, HashRouter} from "react-router-dom";
+import {HashRouter, Route, Switch} from "react-router-dom";
 import * as Constants from "constants/Constants";
-
 // styles for this kit
 import "assets/css/bootstrap.min.css";
 import "assets/scss/now-ui-kit.scss?v=1.4.0";
@@ -28,16 +27,17 @@ import "assets/demo/nucleo-icons-page-styles.css?v=1.4.0";
 // pages for this kit
 import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
-import LoginPage from "views/landingPage/LoginPage.js";
 import LandingPage from "views/landingPage/LandingPage.js";
-import ProfilePage from "views/landingPage/ProfilePage.js";
-import MainNavbar from "./views/landingPage/childComponents/MainNavbar";
+import MainNavbar from "./commonComponents/MainNavbar";
 import Vision from "./views/vision/Vision";
 import ContactUs from "views/contactUs/ContactUs";
 import ManagedBy from "views/managedBy/ManagedBy";
 import Facilities from "views/facilites/Facilities";
 import AboutUs from "views/aboutUs/AboutUs";
-import Notices from "./views/notices/Notices";
+import Notices from "views/notices/Notices";
+import EducationalProgram from "./views/educationalProgram/EducationalProgram";
+import CoScholasticActivities from "./views/coScholasticActivities/CoScholasticActivities";
+import ELearning from "./views/eLearning/eLearning";
 
 ReactDOM.render(
     // <BrowserRouter>
@@ -82,11 +82,12 @@ ReactDOM.render(
                 <Route path={Constants.subdomains.aboutUs} component={AboutUs} />
                 <Route path={Constants.subdomains.vision} component={Vision} />
                 <Route path={Constants.subdomains.notices} component={Notices} />
+                <Route path={Constants.subdomains.educationalProgram} component={EducationalProgram} />
+                <Route path={Constants.subdomains.coScholasticActivities} component={CoScholasticActivities} />
+                <Route path={Constants.subdomains.eLearning} component={ELearning} />
                 <Route path={Constants.subdomains.contactUs} component={ContactUs} />
                 <Route path={Constants.subdomains.managedBy} component={ManagedBy} />
                 <Route path={Constants.subdomains.facilities} component={Facilities} />
-                <Route path={Constants.subdomains.profile} component={ProfilePage} />
-                <Route path={Constants.subdomains.login} component={LoginPage} />
                 <Route path={Constants.subdomains.icons} component={NucleoIcons} />
             </Switch>
         </HashRouter>

@@ -115,7 +115,7 @@ now-ui-kit-react
     │   └── Navbars
     │       ├── MainNavbar.js
     │       └── IndexNavbar.js
-    ├── AboutUs.js
+    ├── Education.js
     └── views
         ├── Index.js
         ├── NucleoIcons.js

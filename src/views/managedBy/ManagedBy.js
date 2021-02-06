@@ -15,7 +15,7 @@ function ManagedBy() {
                                 <Row>
                                     {
                                         Constants.trustees.map((trustee, key) =>
-                                            <Col md="4" className="bottom-margin">
+                                            <Col md="4" className="bottom-margin" key={key}>
                                                 <div className="team-player">
                                                     {
                                                         trustee.photo &&

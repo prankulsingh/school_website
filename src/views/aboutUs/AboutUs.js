@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container } from "reactstrap";
+import * as Constants from "../../constants/Constants";
 
 function AboutUs() {
     return (
@@ -7,52 +8,17 @@ function AboutUs() {
             <div className="wrapper">
                 <div className="section base-page vision-page">
                     <Container>
-                        <h2>About Us</h2>
+                        <h2>{Constants.appStrings.aboutUs.aboutUs}</h2>
                         <div className="image-container">
-                            <img src={"https://cdn.pixabay.com/photo/2014/05/02/23/52/castle-336498_1280.jpg"} alt={"Nature, United States"} />
+                            <img src={Constants.aboutUsData.schoolPhoto} alt={"Nature, United States"} />
                         </div>
-                        <p>
-                            I will be the leader of a company that ends up being
-                            worth billions of dollars, because I got the answers. I
-                            understand culture. I am the nucleus. I think that’s a
-                            responsibility that I have, to push possibilities, to show
-                            people, this is the level that things could be at.
-                            I will be the leader of a company that ends up being
-                            worth billions of dollars, because I got the answers. 
-                            I will be the leader of a company that ends up being
-                            worth billions of dollars, because I got the answers. I
-                            understand culture. I am the nucleus. I think that’s a
-                            responsibility that I have, to push possibilities, to show
-                            people, this is the level that things could be at.
-                        </p>
-                        <p>
-                            I will be the leader of a company that ends up being
-                            worth billions of dollars, because I got the answers. I
-                            understand culture. I am the nucleus. I think that’s a
-                            responsibility that I have, to push possibilities, to show
-                            people, this is the level that things could be at.
-                            I will be the leader of a company that ends up being
-                            worth billions of dollars, because I got the answers. I
-                            understand culture. I am the nucleus. I think that’s a
-                            responsibility that I have, to push possibilities, to show
-                            people, this is the level that things could be at.
-                            I will be the leader of a company that ends up being
-                            worth billions of dollars, because I got the answers. I
-                            understand culture. I am the nucleus. I think that’s a
-                            responsibility that I have, to push possibilities, to show
-                            people, this is the level that things could be at.
-                        </p>
-                        <br />
-                        <br />
+                        {Constants.aboutUsData.mainText.map((text, key) => <p key={key}>{text}</p>)}
+                        <br/><br/>
                         <p className="blockquote blockquote-small">
-                      "I will be the leader of a company that ends up being
-                      worth billions of dollars, because I got the answers. I
-                      understand culture. I am the nucleus. I think that’s a
-                      responsibility that I have, to push possibilities, to show
-                      people, this is the level that things could be at."{" "}
-                      <br />
-                      <small>- Noaa</small>
-                    </p>
+                            {Constants.aboutUsData.quote.text}
+                            <br/>
+                            <small>{`- ${Constants.aboutUsData.quote.by}`}</small>
+                        </p>
                     </Container>
                 </div>
             </div>

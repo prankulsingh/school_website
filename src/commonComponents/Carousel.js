@@ -70,12 +70,12 @@ function CarouselSection({data}) {
                   activeIndex={activeIndex}
                   onClickHandler={goToIndex}
                 />
-                {carouselItems.map((item) => {
+                {carouselItems.map((item, key) => {
                   return (
                     <CarouselItem
                       onExiting={onExiting}
                       onExited={onExited}
-                      key={item.src}
+                      key={key}
                     >
                       <img src={item.src} alt={item.altText} />
                       <div className="carousel-caption d-none d-md-block">
