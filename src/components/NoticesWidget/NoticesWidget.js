@@ -72,7 +72,7 @@ class NoticesWidget extends React.Component {
                 {
                     this.state.noticeArray && this.state.noticeArray.length > 0 &&
                     this.getEffectiveNoticeArray().map((notice, key) =>
-                        <li>
+                        <li key={key}>
                             <a href={notice['Public download link']} target="_blank">
                                 {notice['Name']}
                             </a>
